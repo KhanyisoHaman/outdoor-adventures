@@ -1,0 +1,61 @@
+// Responsiveness of the Websites
+
+// Tablet Size
+@media (max-width: 790px) and (min-width: 600px) {
+    // Header
+    header {
+        font-size: 12px;
+        height: 100vh;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        display: none;
+        background-color: rgba(116, 110, 110, 0.7);
+        border-radius: 5px;
+        min-width: 95px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        margin-top: 15px;
+    }
+    
+
+
+}
+
+// Mobile
+
+@media (max-width:450px) {
+    // Header
+    header {
+        height: 110vh;
+    }
+
+    nav {
+        background: none;
+        display: block;
+        height: 0;
+
+        
+
+        ul {
+            text-align: justify;
+            padding: 0;
+            width: 120px;
+            background-color: #808080b0;
+            border-radius: 10px;
+            margin-left: 10px;
+
+            li {
+                display: block;
+                padding: 10px;
+
+                a {
+                    padding: 10px;
+                }
+            }
+        }
+
+        
+    }
+
+}
