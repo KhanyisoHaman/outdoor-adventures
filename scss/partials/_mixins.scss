@@ -1,0 +1,29 @@
+// Mixins
+
+@mixin grid {
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+    padding: 20px;
+}
+
+@mixin box {
+    box-shadow: 2px 2px 9px black;
+    padding: 50px;
+    width: 90vh;
+    margin-left: 55vh;
+}
+
+@mixin thumbnails-dead {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+@mixin avengers {
+    text-align: center;
+    color: #CCE3DE;
+    padding-top: 35vh;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 2px black;
+    font-size: 40px;
+}

@@ -5,19 +5,24 @@
 body {
     background-color: rgb(240, 240, 240);
     margin: 0;
+    font-family: 'Merriweather','Quicksand', 'Arvo', serif;
+    scroll-behavior: smooth;
 }
 
 header {
     height: 100vh;
-    background: url(../images/outdoor.jpg);
+    background: linear-gradient(rgba(190, 190, 190, 0.384),rgba(7, 7, 7, 0.342)), url(../images/outdoor.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 1px 1px 9px black;
 }
 
 // Nav Bar
 nav {
     height: 70px;
     background-color: rgba(27, 25, 25, 0.404);
+    box-shadow: 2px 2px 3px;
     padding-top: 5px;
     width: 100%;
 
@@ -45,8 +50,8 @@ nav {
 }
 
 a:hover {
-    background-color: white;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
     color: black;
     box-shadow: 1px 1px 5px black;
     

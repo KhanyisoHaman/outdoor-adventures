@@ -1,0 +1,59 @@
+// Layout structure
+
+.main {
+    margin: 15px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "intro intro"
+        "camping canoeing"
+        "climbing fishing"
+        "hiking hunting"
+}
+
+.intro {
+    grid-area: intro;
+    @include box;
+}
+
+.camping {
+    grid-area: camping;
+    @include grid;
+}
+
+.canoeing {
+    grid-area: canoeing;
+    @include grid;
+}
+
+.climbing {
+    grid-area: climbing;
+    @include grid;
+}
+
+.fishing {
+    grid-area: fishing;
+    @include grid;
+}
+
+.hiking {
+    grid-area: hiking;
+    @include grid;
+}
+
+.hunting {
+    grid-area: hunting;
+    @include grid;
+}
+
+// Grid for my Thumbnails
+
+.thumb-grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+}
+

@@ -1,16 +1,21 @@
 body {
   background-color: #f0f0f0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Merriweather','Quicksand', 'Arvo', serif;
+  scroll-behavior: smooth; }
 
 header {
   height: 100vh;
-  background: url(../images/outdoor.jpg);
+  background: linear-gradient(rgba(190, 190, 190, 0.384), rgba(7, 7, 7, 0.342)), url(../images/outdoor.jpg);
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 1px 1px 9px black; }
 
 nav {
   height: 70px;
   background-color: rgba(27, 25, 25, 0.404);
+  box-shadow: 2px 2px 3px;
   padding-top: 5px;
   width: 100%; }
   nav ul {
@@ -28,10 +33,67 @@ nav {
         text-transform: uppercase; }
 
 a:hover {
-  background-color: white;
-  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
   color: black;
   box-shadow: 1px 1px 5px black; }
+
+.main {
+  margin: 15px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "intro intro" "camping canoeing" "climbing fishing" "hiking hunting"; }
+
+.intro {
+  grid-area: intro;
+  box-shadow: 2px 2px 9px black;
+  padding: 50px;
+  width: 90vh;
+  margin-left: 55vh; }
+
+.camping {
+  grid-area: camping;
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  padding: 20px; }
+
+.canoeing {
+  grid-area: canoeing;
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  padding: 20px; }
+
+.climbing {
+  grid-area: climbing;
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  padding: 20px; }
+
+.fishing {
+  grid-area: fishing;
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  padding: 20px; }
+
+.hiking {
+  grid-area: hiking;
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  padding: 20px; }
+
+.hunting {
+  grid-area: hunting;
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  padding: 20px; }
+
+.thumb-grid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto; }
 
 /* The container - needed to position the dropdown content */
 .dropdown {
@@ -60,12 +122,65 @@ a:hover {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: rgba(255, 255, 255, 0.2);
   color: black; }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block; }
+
+.hero {
+  text-align: center;
+  color: #CCE3DE;
+  padding-top: 35vh;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  text-shadow: 3px 5px 2px black;
+  font-size: 40px; }
+
+.main {
+  margin-top: 30px; }
+
+.intro {
+  text-align: center;
+  margin-bottom: 20px; }
+
+.thumbnails {
+  border: 1px solid black;
+  padding: 5px; }
+
+.thumbnails a {
+  outline: none;
+  text-decoration: none; }
+
+.thumb-grid img {
+  -webkit-filter: opacity(40%);
+  width: 290px;
+  height: 150px;
+  transition: -webkit-filter 1.5s ease-out; }
+
+.thumb-grid img:hover {
+  -webkit-filter: opacity(100%);
+  transition: -webkit-filter 0.5s ease-out;
+  box-shadow: 1px 1px 9px black; }
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 38vh; }
+
+.feet {
+  text-align: center; }
+
+footer {
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5), -2px -2px 9px rgba(0, 0, 0, 0.5);
+  border: 2px thin black;
+  margin: 10px;
+  padding: 5px; }
 
 @media (max-width: 790px) and (min-width: 600px) {
   header {

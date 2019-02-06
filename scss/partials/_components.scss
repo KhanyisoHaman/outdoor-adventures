@@ -32,7 +32,7 @@
   
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
-      background-color: #f1f1f1;
+      background-color: rgba(255, 255, 255, 0.2);
       color: black;
     }
   
@@ -40,4 +40,78 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
+  .hero {
+  @include avengers;
+  }
+
+  // .heroin {
+  //   @include avengers;
+  //   position: relative;
+  //   text-align: center;
+  // }
+
+
+
+
+  .main {
+    margin-top: 30px;
+  }
+
+  .intro {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  // Thumbnails
+
+.thumbnails {
+    @include thumbnails-dead;
+}
+
+.thumbnails a {
+  outline: none;
+  text-decoration: none;
+}
+
+.thumb-grid img {
+  -webkit-filter: opacity(40%);
+  width: 290px;
+  height: 150px;
+  transition: -webkit-filter 1.5s ease-out;
+  // Add filter
+}
+
+.thumb-grid img:hover {
+  -webkit-filter: opacity(100%);
+  transition: -webkit-filter 0.5s ease-out;
+  box-shadow: 1px 1px 9px black;
+
+}
+
+// Button
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 38vh;
+}
+
+
+.feet {
+  text-align: center
+}
+
+footer {
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5),
+              -2px -2px 9px rgba(0, 0, 0, 0.5);
+  border: 2px thin black;
+  margin: 10px;
+  padding: 5px
+}
   
