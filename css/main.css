@@ -10,7 +10,7 @@ header {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  box-shadow: 1px 1px 9px black; }
+  box-shadow: 1px 1px 56.25% black; }
 
 nav {
   height: 70px;
@@ -94,6 +94,37 @@ a:hover {
   grid-gap: 5px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto; }
+
+.core-front {
+  background: url(../images/Forests-bridges-natural-scenery-hd-wallpaper-backgrounds-1920x1080.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
+
+.nav-gallery {
+  height: 50px; }
+
+.nav-gallery ul {
+  padding-top: 16px; }
+
+.gallery {
+  margin: 0 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(auto, auto); }
+
+.gallery-items {
+  background-color: bisque;
+  padding: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); }
+
+.masonary {
+  text-align: center;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
 
 /* The container - needed to position the dropdown content */
 .dropdown {
