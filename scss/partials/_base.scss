@@ -1,12 +1,14 @@
 // Here I only insert my elemant tags
 
 // Header
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: rgb(240, 240, 240);
     margin: 0;
     font-family: 'Merriweather','Quicksand', 'Arvo', serif;
-    scroll-behavior: smooth;
 }
 
 header {
@@ -25,6 +27,7 @@ nav {
     box-shadow: 2px 2px 3px;
     padding-top: 5px;
     width: 100%;
+    position: fixed;
 
     ul {
         list-style: none;
@@ -50,7 +53,7 @@ nav {
 }
 
 a:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
     color: black;
     box-shadow: 1px 1px 5px black;
