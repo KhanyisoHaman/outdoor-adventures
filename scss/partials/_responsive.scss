@@ -32,25 +32,24 @@
 
     nav {
         background: none;
-        display: block;
-        height: 0;
 
         
 
         ul {
-            text-align: justify;
+            // text-align: justify;
             padding: 0;
-            width: 120px;
-            background-color: #808080b0;
-            border-radius: 10px;
-            margin-left: 10px;
+            // width: 120px;
+            // background-color: #808080b0;
+            // border-radius: 10px;
+            // margin-left: 10px;
 
             li {
-                display: block;
+                display: inline;
                 padding: 10px;
 
                 a {
-                    padding: 10px;
+                    padding: 5px;
+                    font-size: 12px;
                 }
             }
         }
@@ -59,3 +58,28 @@
     }
 
 }
+
+
+
+
+// ********************************************************************************************************************************************************************************************************************************************************************
+
+// Website 2: Gallery
+
+.gallery {
+    margin: 0 10px;
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(auto,1fr);
+}
+
+.masonary-item {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  
+  .gallery-img {
+    grid-column: span 2s;
+  }

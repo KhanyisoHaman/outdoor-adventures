@@ -61,3 +61,63 @@ a:hover {
 }
  
 
+
+
+
+
+// ********************************************************************************************************************************************************************************************************************************************************************
+
+// Website 3: Contact 
+
+input {
+    border-radius: 6px;
+    font-family: 'Pacifico', cursive;
+    color: grey;
+    margin-left: 0px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.text {
+    width: 347px;
+}
+
+textarea {
+    border-radius: 6px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: grey;
+    margin-left: 0px;
+    border: 1px solid;
+    padding: 5px;
+    resize: none;
+}
+
+
+form {
+    padding-left: 20px;
+}
+
+footer {
+    
+    ul {
+        list-style: none;
+        text-align: center;
+
+        li {
+            display: inline;
+            padding: 17px;
+            
+        
+            a {
+                font-size: 100%;
+                text-decoration: none;
+                color: rgb(0, 0, 0,);
+                padding: 15px;
+                text-transform: uppercase; 
+            }
+
+        }
+    }
+}

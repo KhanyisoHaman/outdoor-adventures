@@ -72,8 +72,8 @@
 
 .thumb-grid img {
   -webkit-filter: opacity(40%);
-  width: 290px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   transition: -webkit-filter 1.5s ease-out;
   // Add filter
 }
@@ -94,7 +94,35 @@
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
-  margin-left: 38vh;
+  text-align: center;
+}
+
+.active {
+  background-color: red;
+  border-radius: 10px;
+
+
+
+
+
+
+
+
+
+  
+}
+
+.active:hover {
+  opacity: 0;
+  cursor: default;
+}
+
+.p-button {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
 }
 
 
@@ -108,6 +136,32 @@ footer {
   border: 2px thin black;
   margin: 10px;
   padding: 5px
+}
+
+.fab {
+  font-size: 50px;
+  padding: 20px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.fab:hover {
+  cursor: pointer;
+}
+
+.fa-facebook {
+  margin-left: 40%;
+}
+
+.fa-facebook:hover {
+  color:  rgb(60,90,153);
+}
+
+.fa-instagram:hover {
+  color: rgb(247, 140, 158);
+} 
+
+.fa-linkedin:hover {
+  color: darkblue;
 }
 
 
@@ -170,9 +224,39 @@ footer {
   max-width: 80vh;
   width: 100%;
   margin-top: 5vh;
-  margin-left: 58vh;
+  margin-left: 31%;
   padding: 10px;
   box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5),
               -2px -2px 9px rgba(0, 0, 0, 0.5);
+  background-color: rgba(245, 245, 245, 0.432);
+  border-radius: 5px;
 }
 
+.nav-contact {
+  position: sticky;
+  height: 60px;
+
+  ul {
+    padding-top: 18px;
+  }
+}
+
+.contact-a:hover {
+  color: black;
+  background: none;
+}
+
+.form-action {
+  align-content: center;
+}
+
+.body {
+  background: url(../images/jungle_fantasy_deer_butterflies_night_trees_102121_1920x1080.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.inyauo {
+  background-color: rgba(245, 245, 245, 0.432);
+}
