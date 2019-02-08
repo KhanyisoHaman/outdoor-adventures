@@ -26,3 +26,36 @@ Contact us page, we should be able to capture name, last name, email, subject dr
 On the homepage, you should have images for the respective categories (hiking, camping, fishing, rock climbing), the images should have headings and when you click on the image, it should take you to the respective category section. You should have a section describing each category.
 We strongly and strictly encourage you to make use of SASS for styling and CSS Grid for responsive layout.  
 Once you are happy with your work (and have checked it in your browser)
+
+
+Live link:
+https://khanyisohaman.github.io/outdoor-adventures/
+
+Prevalent Technologies Used:
+-HTML
+-CSS
+-SCSS
+
+Other Technologies:
+-W3schools.com
+-Stackflow.com
+-Css-tricks
+-GITBASH
+
+Languages:
+-HTML
+-CSS
+-SCSS
+
+Tools:
+-VS Code
+-GitBash
+-GitHub
+-Slack
+
+##Contributors
+
+Khanyiso Haman 2019
+Dr West February 2019
+
+-SCSS
