@@ -1,5 +1,7 @@
 // This is where I insert my classes and ids
 
+// Website 1: Home Page
+
 // DropDown Menu
   
   /* The container - needed to position the dropdown content */
@@ -41,7 +43,7 @@
     display: block;
   }
 
-
+// My First Words "Woza Nathi!" meaning "Come with Us"
   .hero {
   @include avengers;
   }
@@ -49,16 +51,18 @@
     margin-top: 0;
   }
 
-
+// Main body
   .main {
     margin-top: 30px;
   }
 
+  // first paragraph
   .intro {
     text-align: center;
     margin-bottom: 20px;
   }
 
+  // all of my p tags except the intro
   .paragraph {
     width: 52%;
     font-size: 20px;
@@ -66,7 +70,11 @@
     text-align: start;
   }
 
-  // Thumbnails
+  h1 {
+    text-align: center;
+  }
+
+  // Thumbnails/ images
 
 .thumbnails {
     @include thumbnails-dead;
@@ -85,6 +93,7 @@
   // Add filter
 }
 
+// hover to make it's color visble when you hover on it
 .thumb-grid img:hover {
   -webkit-filter: opacity(100%);
   transition: -webkit-filter 0.5s ease-out;
@@ -120,10 +129,9 @@
   text-align: center;
 }
 
-h1 {
-  text-align: center;
-}
 
+
+// Footers
 
 .feet {
   text-align: center
@@ -137,6 +145,8 @@ footer {
   padding: 5px
 }
 
+
+// icons
 .fab {
   font-size: 50px;
   padding: 20px;
@@ -165,6 +175,8 @@ footer {
   text-align: center;
 }
 
+// Website 1: Home Page Ends Here
+
 
 // ********************************************************************************************************************************************************************************************************************************************************************
 
@@ -178,6 +190,7 @@ footer {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+// nav bar of my gallery
 .nav-gallery {
   height: 50px;
 }
@@ -186,6 +199,7 @@ footer {
   padding-top: 16px;
 }
 
+// my images and grids
 .gallery-items {
   background-color: bisque;
   padding: 2px;
@@ -217,6 +231,8 @@ footer {
   grid-column: span 3;
 }
 
+// Website 2: Gallery
+
 // ********************************************************************************************************************************************************************************************************************************************************************
 
 // Website 3: Contact Page
@@ -232,6 +248,7 @@ footer {
   border-radius: 5px;
 }
 
+// Nav Bar
 .ul {
     padding-top: 18px;
   }
@@ -256,7 +273,7 @@ footer {
   background-color: rgba(245, 245, 245, 0.432);
 }
 
-// Checkbox
+// Checkbox my green one
 
 .checkboxThree {
   width: 60px;
