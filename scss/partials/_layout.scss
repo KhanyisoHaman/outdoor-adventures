@@ -2,6 +2,7 @@
 
 .main {
     margin: 15px;
+    width: auto;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(1, 1fr);
@@ -24,6 +25,7 @@
 .camping {
     grid-area: camping;
     @include grid;
+
 }
 
 .canoeing {
@@ -58,7 +60,9 @@
     grid-gap: 5px;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
+
 }
+
 
 // ********************************************************************************************************************************************************************************************************************************************************************
 

@@ -23,11 +23,12 @@ header {
 // Nav Bar
 nav {
     height: 70px;
-    background-color: rgba(27, 25, 25, 0.404);
+    background-color: rgba(27, 25, 25, 0.8);
     box-shadow: 2px 2px 3px;
     padding-top: 5px;
     width: 100%;
     position: fixed;
+    z-index: 1;
 
     ul {
         list-style: none;
@@ -70,16 +71,15 @@ a:hover {
 // Website 3: Contact 
 
 input {
-    border-radius: 6px;
-    font-family: 'Pacifico', cursive;
-    color: grey;
-    margin-left: 0px;
-    border: 1px solid;
-    padding: 5px;
+    @include soulcalidrago;
+}
+
+select {
+    @include soulcalidrago;
 }
 
 .text {
-    width: 347px;
+    width: 377px;
 }
 
 textarea {

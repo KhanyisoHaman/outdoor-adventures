@@ -17,48 +17,37 @@
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         margin-top: 15px;
     }
-    
 
+    // Main
 
+.intro {
+    margin-left: 20%;
 }
 
-// Mobile
-
-@media (max-width:450px) {
-    // Header
-    header {
-        height: 110vh;
-    }
-
-    nav {
-        background: none;
-
-        
-
-        ul {
-            // text-align: justify;
-            padding: 0;
-            // width: 120px;
-            // background-color: #808080b0;
-            // border-radius: 10px;
-            // margin-left: 10px;
-
-            li {
-                display: inline;
-                padding: 10px;
-
-                a {
-                    padding: 5px;
-                    font-size: 12px;
-                }
-            }
-        }
-
-        
-    }
-
+.thumb-grid {
+    grid-template-columns: repeat(2, 1fr);
 }
 
+nav {
+    height: 60px;
+}
+
+p, .paragraph {
+    font-size: 15px;
+    width: auto;
+}
+
+
+// Footer
+
+.feet {
+    font-size: 14px;
+}
+
+.fab {
+    padding: 15px;
+    font-size: 35px;
+}
 
 
 
@@ -78,8 +67,174 @@
 .masonary-item {
     grid-column: span 2;
     grid-row: span 1;
-  }
+}
   
-  .gallery-img {
+.gallery-img {
     grid-column: span 2s;
+}
+
+.masonary {
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.nav-gallery {
+    height: 60px;
+    font-size: 15px;
   }
+
+ul {
+    margin-top: 0;
+
+    li {
+        padding: 20px;
+
+        a {
+            padding: 12px;
+        }
+    }
+}
+
+// *********************************************************************************************************
+
+// Website 3: Contact form
+
+.form {
+    width: 45%;
+    margin-left: 25%;
+}
+
+.text, textarea {
+    width: 290px;
+}
+
+
+
+
+
+
+
+}
+
+// ********************************************************************************************************************************************************************************************************************************************************************
+// ********************************************************************************************************************************************************************************************************************************************************************
+
+// Mobile
+
+@media (max-width:450px) {
+
+    // Header
+    header {
+        height: 110vh;
+    }
+
+    nav {
+        height: 35px;
+
+        
+
+        ul {
+            // text-align: justify;
+            padding: 0;
+            // width: 120px;
+            // background-color: #808080b0;
+            // border-radius: 10px;
+            // margin-left: 10px;
+
+            li {
+                display: inline;
+                padding: 7px;
+
+                a {
+                    padding: 7px;
+                    font-size: 11px;
+                }
+            }
+        }
+
+    }
+
+// Main
+
+p, .paragraph {
+    font-size: 13px;
+    width: auto;
+}
+
+.thumbnails {
+    border: none;
+}
+
+.thumb-grid {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.intro {
+    margin-left: 5px;
+    width: 170px;
+}
+
+.dropdown-content {
+    min-width: 87px;
+}
+
+.dropdown-content a {
+    padding: 9px;
+}
+
+.button {
+    padding: 7px;
+    font-size: 12px;
+}
+
+
+// Footer
+
+.feet {
+    font-size: 14px;
+}
+
+.fab {
+    padding: 15px;
+    font-size: 30px;
+}
+
+// *********************************************************************************************************
+
+// Website 3: Contact form
+
+.form {
+    width: 80%;
+    margin-left: 22px;
+}
+
+.text, textarea {
+    width: 205px;
+}
+
+
+.ul {
+    padding: 0;
+
+    li {
+        padding: 5px;
+
+
+        a {
+            padding: 7px;
+            font-size: 10px;
+        }
+    }
+}
+
+}
+
+
+
+// ********************************************************************************************************************************************************************************************************************************************************************
+
+
+

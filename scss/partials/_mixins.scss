@@ -1,7 +1,6 @@
 // Mixins
 
 @mixin grid {
-    border: 1px solid black;
     box-shadow: 2px 2px 3px black;
     padding: 20px;
 }
@@ -10,11 +9,10 @@
     box-shadow: 2px 2px 9px black;
     padding: 50px;
     width: 90vh;
-    margin-left: 55vh;
+    margin-left: 25%;
 }
 
 @mixin thumbnails-dead {
-    border: 1px solid black;
     padding: 5px;
 }
 
@@ -27,4 +25,14 @@
     text-shadow: 3px 5px 2px black;
     font-size: 40px;
     margin-top: 0;
+}
+
+
+@mixin soulcalidrago {
+    border-radius: 6px;
+    font-family: 'Pacifico', cursive;
+    color: grey;
+    margin-left: 0px;
+    border: 1px solid;
+    padding: 5px;   
 }
