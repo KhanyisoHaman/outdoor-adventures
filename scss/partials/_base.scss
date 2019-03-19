@@ -8,7 +8,7 @@ html {
 body {
     background-color: rgb(240, 240, 240);
     margin: 0;
-    font-family: 'Merriweather','Quicksand', 'Arvo', serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 header {
@@ -22,42 +22,57 @@ header {
 
 // Nav Bar
 nav {
-    height: 70px;
-    background-color: rgba(27, 25, 25, 0.8);
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 2px 2px 3px;
-    padding-top: 5px;
     width: 100%;
     position: fixed;
     z-index: 1;
+    font-family: 'Saira Extra Condensed', sans-serif;
+
 
     ul {
         list-style: none;
         margin-top: 0;
-        text-align: center;
+        text-align:right;
+        padding: 0;
 
         li {
             display: inline;
-            padding: 25px;
+            padding: 5px 25px;
             
 
         
             a {
-                font-size: 100%;
+                font-size: 20px;
                 text-decoration: none;
-                color: white;
-                padding: 15px;
+                color: gray;
+                padding: 10px 15px;
                 text-transform: uppercase; 
             }
 
+            .campground {
+                text-align: left !important;
+                font-size: 20px;
+                float: left;
+                color: gray;
+                padding-top: 5px;
+                text-transform: uppercase;
+            }
+
         }
+
     }
 }
 
-a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
+.campground:hover {
     color: black;
-    box-shadow: 1px 1px 5px black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
     
 }
  
