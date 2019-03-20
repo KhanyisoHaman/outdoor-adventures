@@ -52,6 +52,13 @@
     margin-top: 0;
   }
 
+  .fa-chevron-down {
+    color: #CCE3DE;
+    font-size: 40px;
+    position: absolute;
+    transform: translate(15.5em, 14em);
+  }
+
 // Main body
   .main {
     margin-top: 30px;
@@ -61,12 +68,23 @@
   .intro {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 18px;
+
+    hr {
+      margin-top: 7vh;
+      height: 2px;
+      width: 241px;
+      background-color: #8080808f;
+      border-style: hidden;
+      border-radius: 1px;
+
+    }
   }
 
   // all of my p tags except the intro
   .paragraph {
-    width: 52%;
-    font-size: 20px;
+    width: 100%;
+    font-size: 18px;
     margin: 0 auto;
     text-align: start;
   }
@@ -90,6 +108,7 @@
   -webkit-filter: opacity(40%);
   width: 100%;
   height: 100%;
+  transform: translate(85px,0);
   transition: -webkit-filter 1.5s ease-out;
   // Add filter
 }
@@ -107,11 +126,12 @@
 .button {
   text-decoration: none;
   color: white;
-  background-color: rgb(0, 0, 0);
+  background-color: #000000c4;
   border-radius: 5px;
-  padding: 10px;
+  padding: 6px 16px;
   margin-bottom: 10px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .active {
@@ -132,20 +152,18 @@
 
 .feet {
   text-align: center
+
 }
 
 footer {
-  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5),
-              -2px -2px 9px rgba(0, 0, 0, 0.5);
-  border: 2px thin black;
-  margin: 10px;
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
   padding: 5px
 }
 
 
 // icons
 .fab {
-  font-size: 50px;
+  font-size: 30px;
   padding: 20px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
@@ -172,6 +190,13 @@ footer {
   text-align: center;
 }
 
+.icons hr {
+  width: 30%;
+  border-style: solid;
+  background-color: rgba(128, 128, 128, 0.596);
+  color: rgba(128, 128, 128, 0.596);
+}
+
 // Website 1: Home Page Ends Here
 
 
@@ -189,18 +214,16 @@ footer {
 
 // nav bar of my gallery
 .nav-gallery {
-  height: 50px;
+  height: 40px;
 }
 
 .nav-gallery ul {
-  padding-top: 16px;
+  padding-top: 0px;
 }
 
 // my images and grids
 .gallery-items {
-  background-color: bisque;
   padding: 2px;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
   grid-column: span 2;
   grid-row: span 2;
 }

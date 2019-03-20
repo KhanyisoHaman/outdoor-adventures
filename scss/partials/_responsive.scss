@@ -21,15 +21,16 @@
     // Main
 
 .intro {
-    margin-left: 20%;
+    margin-left: 12%;
 }
 
 .thumb-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 
-nav {
-    height: 60px;
+
+.hero {
+    transform: translate(5em, 5em);
 }
 
 p, .paragraph {
@@ -37,6 +38,56 @@ p, .paragraph {
     width: auto;
 }
 
+.home-nav {
+    height: 40px;
+    width: 100%;
+
+    li {
+        padding: 5px 10px; 
+    }
+
+    a {
+        padding: 10px 10px;
+    }
+}
+
+.fa-chevron-down {
+    transform: translate(9.5em, 12em);
+}
+
+.camping {
+    @include re-grid;
+    margin: 20px 0;
+    grid-template-columns: repeat(2, 78vh);
+}
+
+.thumb-camp {
+    display: none;
+}
+
+.fishing {
+    @include re-grid;
+}
+
+.canoeing {
+    @include re-grid;
+}
+
+.hunting {
+    @include re-grid;
+}
+
+.hiking {
+    @include re-grid;
+}
+
+.climbing {
+    @include re-grid;
+}
+
+.thumb-grid img {
+    transform: translate(49px, 0);
+}
 
 // Footer
 
@@ -228,6 +279,53 @@ p, .paragraph {
             font-size: 10px;
         }
     }
+}
+
+.fishing {
+    @include mobile-grid;
+}
+
+.canoeing {
+    @include mobile-grid;
+}
+
+.hunting {
+    @include mobile-grid;
+}
+
+.hiking {
+    @include mobile-grid;
+}
+
+.climbing {
+    @include mobile-grid;
+}
+
+.gallery {
+    grid-template-columns: repeat(1,1fr);
+}
+
+// .masonary-item {
+//     grid-column: span 2;
+//     grid-row: span 1;
+// }
+
+.gallery-items {
+    padding: 2px;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+  
+// .gallery-img {
+//     grid-column: span 2s;
+// }
+
+.masonary {
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
 }
 
 }

@@ -1,12 +1,28 @@
 // Mixins
 
-@mixin grid {
-    box-shadow: 2px 2px 3px black;
-    padding: 20px;
+
+@mixin re-grid {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 68vh);
 }
 
+@mixin mobile-grid {
+    margin: 10px 0;
+    grid-template-columns: repeat(1,auto);
+}
+
+@mixin grid {
+    padding: 20px;
+    margin: 20px 0;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2,90vh);
+}
+
+
+
 @mixin box {
-    box-shadow: 2px 2px 9px black;
     padding: 50px;
     width: 90vh;
     margin-left: 25%;
