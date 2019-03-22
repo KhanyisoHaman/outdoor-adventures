@@ -63,6 +63,24 @@ nav {
         }
 
     }
+
+    #toggleNav {
+        z-index: 3;
+        transform: translate(0px,-66%);
+        display: inline;   
+    }
+
+    #toggleNav.active {
+        display: initial;
+    }
+
+    .toggle {
+        display: none;
+        z-index: 1000;
+        font-size: 20px;
+        color: gray;
+        padding: 10px 15px;
+      }
 }
 
 .campground:hover {

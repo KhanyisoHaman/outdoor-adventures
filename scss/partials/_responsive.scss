@@ -51,14 +51,24 @@ p, .paragraph {
     }
 }
 
+#toggleNav {
+    display: none !important;
+}
+
+#toggleNav.active {
+    display: initial !important;
+}
+
+.toggle {
+    display: initial !important;
+}
+
 .fa-chevron-down {
     transform: translate(9.5em, 12em);
 }
 
 .camping {
     @include re-grid;
-    margin: 20px 0;
-    grid-template-columns: repeat(2, 78vh);
 }
 
 .thumb-camp {
@@ -208,6 +218,18 @@ ul {
 
     }
 
+    #toggleNav {
+        display: none !important;
+    }
+    
+    #toggleNav.active {
+        display: initial !important;
+    }
+    
+    .toggle {
+        display: initial !important;
+    }
+
 // Main
 
 p, .paragraph {
@@ -281,24 +303,43 @@ p, .paragraph {
     }
 }
 
+.hero {
+    color: #CCE3DE;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 2px black;
+    font-size: 26px;
+    position: absolute;
+    transform: translate(1.5em, 9em);
+}
+
+.camping {
+    margin: 10px 0 !important;
+}
+
 .fishing {
-    @include mobile-grid;
+    margin: 10px 0 !important;
+    grid-template-columns: repeat(1,auto) !important;
 }
 
 .canoeing {
-    @include mobile-grid;
+    margin: 10px 0 !important;
+    grid-template-columns: repeat(1,auto) !important;
 }
 
 .hunting {
-    @include mobile-grid;
+    margin: 10px 0 !important;
+    grid-template-columns: repeat(1,auto) !important;
 }
 
 .hiking {
-    @include mobile-grid;
+    margin: 10px 0 !important;
+    grid-template-columns: repeat(1,auto) !important;
 }
 
 .climbing {
-    @include mobile-grid;
+    margin: 10px 0 !important;
+    grid-template-columns: repeat(1,auto) !important;
 }
 
 .gallery {

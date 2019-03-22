@@ -51,6 +51,21 @@ nav ul li .campground {
   padding-top: 5px;
   text-transform: uppercase;
 }
+nav #toggleNav {
+  z-index: 3;
+  transform: translate(0px, -66%);
+  display: inline;
+}
+nav #toggleNav.active {
+  display: initial;
+}
+nav .toggle {
+  display: none;
+  z-index: 1000;
+  font-size: 20px;
+  color: gray;
+  padding: 10px 15px;
+}
 
 .campground:hover {
   color: black;
@@ -551,6 +566,18 @@ footer {
     padding: 10px 10px;
   }
 
+  #toggleNav {
+    display: none !important;
+  }
+
+  #toggleNav.active {
+    display: initial !important;
+  }
+
+  .toggle {
+    display: initial !important;
+  }
+
   .fa-chevron-down {
     transform: translate(9.5em, 12em);
   }
@@ -679,6 +706,18 @@ footer {
     font-size: 11px;
   }
 
+  #toggleNav {
+    display: none !important;
+  }
+
+  #toggleNav.active {
+    display: initial !important;
+  }
+
+  .toggle {
+    display: initial !important;
+  }
+
   p, .paragraph {
     font-size: 13px;
     width: auto;
@@ -761,7 +800,7 @@ footer {
 
   .climbing {
     margin: 10px 0;
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: repeat(1, auto) !important;
   }
 
   .gallery {
