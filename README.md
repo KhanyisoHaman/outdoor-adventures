@@ -29,8 +29,6 @@ Technologies and Tools Used:
 - SASS(SCSS)
 - JS
 
-```
-```
 # Tools:
 
 - VS Code
