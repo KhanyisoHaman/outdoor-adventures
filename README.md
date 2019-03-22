@@ -10,7 +10,7 @@ An website that guides you where to go in the Western Cape if you wanna fell the
 - Watch my work (sass --watch scss:css)
 
 ## Live Link
-- https://khanyisohaman.github.io/handmade-shop/
+- https://khanyisohaman.github.io/outdoor-adventures/
 
 
 ### Technologies Used
