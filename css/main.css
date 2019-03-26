@@ -1,12 +1,10 @@
 html {
-  scroll-behavior: smooth;
-}
+  scroll-behavior: smooth; }
 
 body {
   background-color: #f0f0f0;
   margin: 0;
-  font-family: "Saira Extra Condensed", sans-serif;
-}
+  font-family: 'Saira Extra Condensed', sans-serif; }
 
 header {
   height: 100vh;
@@ -14,8 +12,7 @@ header {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  box-shadow: 1px 1px 56.25% black;
-}
+  box-shadow: 1px 1px 56.25% black; }
 
 nav {
   height: 40px;
@@ -24,111 +21,93 @@ nav {
   width: 100%;
   position: fixed;
   z-index: 1;
-  font-family: "Saira Extra Condensed", sans-serif;
-}
-nav ul {
-  list-style: none;
-  margin-top: 0;
-  text-align: right;
-  padding: 0;
-}
-nav ul li {
-  display: inline;
-  padding: 5px 25px;
-}
-nav ul li a {
-  font-size: 20px;
-  text-decoration: none;
-  color: gray;
-  padding: 10px 15px;
-  text-transform: uppercase;
-}
-nav ul li .campground {
-  text-align: left !important;
-  font-size: 20px;
-  float: left;
-  color: gray;
-  padding-top: 5px;
-  text-transform: uppercase;
-}
-nav #toggleNav {
-  z-index: 3;
-  transform: translate(0px, -66%);
-  display: inline;
-}
-nav #toggleNav.active {
-  display: initial;
-}
-nav .toggle {
-  display: none;
-  z-index: 1000;
-  font-size: 20px;
-  color: gray;
-  padding: 10px 15px;
-}
+  font-family: 'Saira Extra Condensed', sans-serif; }
+  nav ul {
+    list-style: none;
+    margin-top: 0;
+    text-align: right;
+    padding: 0; }
+    nav ul li {
+      display: inline;
+      padding: 5px 25px; }
+      nav ul li a {
+        font-size: 20px;
+        text-decoration: none;
+        color: gray;
+        padding: 10px 15px;
+        text-transform: uppercase; }
+      nav ul li .campground {
+        text-align: left !important;
+        font-size: 20px;
+        float: left;
+        color: gray;
+        padding-top: 5px;
+        text-transform: uppercase; }
+  nav #toggleNav {
+    z-index: 3;
+    transform: translate(0px, -66%);
+    display: inline; }
+  nav #toggleNav.active {
+    display: initial; }
+  nav .toggle {
+    display: none;
+    z-index: 1000;
+    font-size: 20px;
+    color: gray;
+    padding: 10px 15px; }
 
 .campground:hover {
   color: black;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 a:hover {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 input {
   border-radius: 6px;
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   color: grey;
   margin-left: 0px;
   border: 1px solid;
-  padding: 5px;
-}
+  padding: 5px; }
 
 select {
   border-radius: 6px;
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   color: grey;
   margin-left: 0px;
   border: 1px solid;
-  padding: 5px;
-}
+  padding: 5px; }
 
 .text {
-  width: 377px;
-}
+  width: 377px; }
 
 textarea {
   border-radius: 6px;
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 20px;
   letter-spacing: 2px;
   color: grey;
   margin-left: 0px;
   border: 1px solid;
   padding: 5px;
-  resize: none;
-}
+  resize: none; }
 
 form {
-  padding-left: 20px;
-}
+  padding-left: 20px; }
 
 footer ul {
   list-style: none;
-  text-align: center;
-}
-footer ul li {
-  display: inline;
-  padding: 17px;
-}
-footer ul li a {
-  font-size: 100%;
-  text-decoration: none;
-  color: black;
-  padding: 15px;
-  text-transform: uppercase;
-}
+  text-align: center; }
+  footer ul li {
+    display: inline;
+    padding: 17px; }
+    footer ul li a {
+      font-size: 100%;
+      text-decoration: none;
+      color: black;
+      padding: 15px;
+      text-transform: uppercase; }
 
 .main {
   margin: 15px;
@@ -137,15 +116,13 @@ footer ul li a {
   grid-gap: 10px;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(auto, 1fr);
-  grid-template-areas: "intro" "camping" "canoeing" "climbing" "fishing" "hiking" "hunting";
-}
+  grid-template-areas: "intro" "camping" "canoeing" "climbing" "fishing" "hiking" "hunting"; }
 
 .intro {
   grid-area: intro;
   padding: 50px;
   width: 90vh;
-  margin-left: 25%;
-}
+  margin-left: 25%; }
 
 .camping {
   grid-area: camping;
@@ -153,8 +130,7 @@ footer ul li a {
   margin: 20px 0;
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(2, 90vh);
-}
+  grid-template-columns: repeat(2, 90vh); }
 
 .canoeing {
   grid-area: canoeing;
@@ -162,8 +138,7 @@ footer ul li a {
   margin: 20px 0;
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(2, 90vh);
-}
+  grid-template-columns: repeat(2, 90vh); }
 
 .climbing {
   grid-area: climbing;
@@ -171,8 +146,7 @@ footer ul li a {
   margin: 20px 0;
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(2, 90vh);
-}
+  grid-template-columns: repeat(2, 90vh); }
 
 .fishing {
   grid-area: fishing;
@@ -180,8 +154,7 @@ footer ul li a {
   margin: 20px 0;
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(2, 90vh);
-}
+  grid-template-columns: repeat(2, 90vh); }
 
 .hiking {
   grid-area: hiking;
@@ -189,8 +162,7 @@ footer ul li a {
   margin: 20px 0;
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(2, 90vh);
-}
+  grid-template-columns: repeat(2, 90vh); }
 
 .hunting {
   grid-area: hunting;
@@ -198,29 +170,28 @@ footer ul li a {
   margin: 20px 0;
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(2, 90vh);
-}
+  grid-template-columns: repeat(2, 90vh); }
 
 .thumb-grid {
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: auto;
-}
+  grid-template-rows: auto; }
 
 .gallery {
   margin: 0 10px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(auto, 1fr);
-}
+  grid-template-rows: repeat(auto, 1fr); }
 
+@font-face {
+  font-family: 'Saira Extra Condensed';
+  src: url(../fonts/Saira_Extra_Condensed/SairaExtraCondensed-Regular.ttf); }
 /* The container - needed to position the dropdown content */
 .dropdown {
   position: relative;
-  display: inline-block;
-}
+  display: inline-block; }
 
 /* dropdown-content */
 .dropdown-content {
@@ -232,8 +203,7 @@ footer ul li a {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   margin-top: 5px;
-  text-align: center;
-}
+  text-align: center; }
 
 /* Links inside the dropdown */
 .dropdown-content a {
@@ -242,19 +212,16 @@ footer ul li a {
   color: gray;
   padding: 10px 15px;
   text-transform: uppercase;
-  text-align: center;
-}
+  text-align: center; }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   color: black;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
-}
+  display: block; }
 
 .hero {
   color: #CCE3DE;
@@ -263,71 +230,59 @@ footer ul li a {
   text-shadow: 3px 5px 2px black;
   font-size: 48px;
   position: absolute;
-  transform: translate(10em, 5em);
-}
+  transform: translate(10em, 5em); }
 
 .hero h1 {
-  margin-top: 0;
-}
+  margin-top: 0; }
 
 .fa-chevron-down {
   color: #CCE3DE;
   font-size: 40px;
   position: absolute;
-  transform: translate(15.5em, 14em);
-}
+  transform: translate(15.5em, 14em); }
 
 .main {
-  margin-top: 30px;
-}
+  margin-top: 30px; }
 
 .intro {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 18px;
-}
-.intro hr {
-  margin-top: 7vh;
-  height: 2px;
-  width: 241px;
-  background-color: #8080808f;
-  border-style: hidden;
-  border-radius: 1px;
-}
+  font-size: 18px; }
+  .intro hr {
+    margin-top: 7vh;
+    height: 2px;
+    width: 241px;
+    background-color: #8080808f;
+    border-style: hidden;
+    border-radius: 1px; }
 
 .paragraph {
   width: 100%;
   font-size: 18px;
   margin: 0 auto;
-  text-align: start;
-}
+  text-align: start; }
 
 h1 {
-  text-align: center;
-}
+  text-align: center; }
 
 .thumbnails {
-  padding: 5px;
-}
+  padding: 5px; }
 
 .thumbnails a {
   outline: none;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .thumb-grid img {
   -webkit-filter: opacity(40%);
   width: 100%;
   height: 100%;
   transform: translate(85px, 0);
-  transition: -webkit-filter 1.5s ease-out;
-}
+  transition: -webkit-filter 1.5s ease-out; }
 
 .thumb-grid img:hover {
   -webkit-filter: opacity(100%);
   transition: -webkit-filter 0.5s ease-out;
-  box-shadow: 1px 1px 9px black;
-}
+  box-shadow: 1px 1px 9px black; }
 
 .button {
   text-decoration: none;
@@ -337,105 +292,84 @@ h1 {
   padding: 6px 16px;
   margin-bottom: 10px;
   text-align: center;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .active {
-  color: black;
-}
+  color: black; }
 
 .active:hover {
-  cursor: default;
-}
+  cursor: default; }
 
 .p-button {
-  text-align: center;
-}
+  text-align: center; }
 
 .feet {
-  text-align: center;
-}
+  text-align: center; }
 
 footer {
   border-top: 1px solid rgba(128, 128, 128, 0.5);
-  padding: 5px;
-}
+  padding: 5px; }
 
 .fab {
   font-size: 30px;
   padding: 20px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
 
 .fab:hover {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .fa-facebook:hover {
-  color: #3c5a99;
-}
+  color: #3c5a99; }
 
 .fa-instagram:hover {
-  color: #f78c9e;
-}
+  color: #f78c9e; }
 
 .fa-linkedin:hover {
-  color: darkblue;
-}
+  color: darkblue; }
 
 .icons {
-  text-align: center;
-}
+  text-align: center; }
 
 .icons hr {
   width: 30%;
   border-style: solid;
   background-color: rgba(128, 128, 128, 0.596);
-  color: rgba(128, 128, 128, 0.596);
-}
+  color: rgba(128, 128, 128, 0.596); }
 
 .core-front {
   background: url(../images/Forests-bridges-natural-scenery-hd-wallpaper-backgrounds-1920x1080.jpg);
   background-position: center;
   background-size: cover;
   height: 40vh;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
 
 .nav-gallery {
-  height: 40px;
-}
+  height: 40px; }
 
 .nav-gallery ul {
-  padding-top: 0px;
-}
+  padding-top: 0px; }
 
 .gallery-items {
   padding: 2px;
   grid-column: span 2;
-  grid-row: span 2;
-}
+  grid-row: span 2; }
 
 .gallery-items img {
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 .masonary {
   text-align: center;
   letter-spacing: 7px;
   text-transform: uppercase;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
 
 .masonary-item {
   grid-column: span 4;
-  grid-row: span 2;
-}
+  grid-row: span 2; }
 
 .gallery-img {
-  grid-column: span 3;
-}
+  grid-column: span 3; }
 
 .form {
   width: 32%;
@@ -444,89 +378,79 @@ footer {
   padding: 10px;
   box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5), -2px -2px 9px rgba(0, 0, 0, 0.5);
   background-color: rgba(245, 245, 245, 0.432);
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
 .ul {
-  padding-top: 18px;
-}
+  padding-top: 18px; }
+
+.contact-nav {
+  position: initial; }
 
 .contact-a:hover {
   color: black;
-  background: none;
-}
+  background: none; }
 
 .form-action {
-  align-content: center;
-}
+  align-content: center; }
 
 .body {
   background: url(../images/jungle_fantasy_deer_butterflies_night_trees_102121_1920x1080.jpg);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-}
+  background-attachment: fixed; }
 
 .inyauo {
-  background-color: rgba(245, 245, 245, 0.432);
-}
+  background-color: rgba(245, 245, 245, 0.432); }
 
 .checkboxThree {
   width: 60px;
   height: 20px;
   background: #333;
   border-radius: 25px;
-  position: relative;
-}
+  position: relative; }
 
 .checkboxThree:before {
-  content: "On";
+  content: 'On';
   position: absolute;
   top: 6px;
   left: 7.5px;
   height: 2px;
   color: #26ca28;
-  font-size: 8px;
-}
+  font-size: 8px; }
 
 .checkboxThree:after {
-  content: "Off";
+  content: 'Off';
   position: absolute;
   top: 6px;
   left: 42px;
   height: 1px;
   color: #111;
-  font-size: 8px;
-}
+  font-size: 8px; }
 
 .checkboxThree label {
   display: block;
   width: 26px;
   height: 11px;
   border-radius: 25px;
-  transition: all 0.5s ease;
+  transition: all .5s ease;
   cursor: pointer;
   position: absolute;
   top: 4.5px;
   z-index: 1;
   left: 6px;
-  background: #ddd;
-}
+  background: #ddd; }
 
 .checkboxThree input[type=checkbox] {
-  -webkit-appearance: button-bevel;
-}
+  -webkit-appearance: button-bevel; }
 
 .checkboxThree input[type=checkbox]:checked + label {
   left: 30px;
-  background: #26ca28;
-}
+  background: #26ca28; }
 
 @media (max-width: 790px) and (min-width: 600px) {
   header {
     font-size: 12px;
-    height: 100vh;
-  }
+    height: 100vh; }
 
   .dropdown-content {
     position: absolute;
@@ -535,291 +459,235 @@ footer {
     border-radius: 5px;
     min-width: 95px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    margin-top: 15px;
-  }
+    margin-top: 15px; }
 
   .intro {
-    margin-left: 12%;
-  }
+    margin-left: 12%; }
 
   .thumb-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
+    grid-template-columns: repeat(1, 1fr); }
 
   .hero {
-    transform: translate(5em, 5em);
-  }
+    transform: translate(5em, 5em); }
 
   p, .paragraph {
     font-size: 15px;
-    width: auto;
-  }
+    width: auto; }
 
   .home-nav {
     height: 40px;
-    width: 100%;
-  }
-  .home-nav li {
-    padding: 5px 10px;
-  }
-  .home-nav a {
-    padding: 10px 10px;
-  }
+    width: 100%; }
+    .home-nav li {
+      padding: 5px 10px; }
+    .home-nav a {
+      padding: 10px 10px; }
 
   #toggleNav {
-    display: none !important;
-  }
+    display: none !important; }
 
   #toggleNav.active {
-    display: initial !important;
-  }
+    display: initial !important; }
 
   .toggle {
-    display: initial !important;
-  }
+    display: initial !important; }
 
   .fa-chevron-down {
-    transform: translate(9.5em, 12em);
-  }
+    transform: translate(9.5em, 12em); }
 
   .camping {
     margin: 20px 0;
     display: grid;
-    grid-template-columns: repeat(2, 68vh);
-    margin: 20px 0;
-    grid-template-columns: repeat(2, 78vh);
-  }
+    grid-template-columns: repeat(2, 68vh); }
 
   .thumb-camp {
-    display: none;
-  }
+    display: none; }
 
   .fishing {
     margin: 20px 0;
     display: grid;
-    grid-template-columns: repeat(2, 68vh);
-  }
+    grid-template-columns: repeat(2, 68vh); }
 
   .canoeing {
     margin: 20px 0;
     display: grid;
-    grid-template-columns: repeat(2, 68vh);
-  }
+    grid-template-columns: repeat(2, 68vh); }
 
   .hunting {
     margin: 20px 0;
     display: grid;
-    grid-template-columns: repeat(2, 68vh);
-  }
+    grid-template-columns: repeat(2, 68vh); }
 
   .hiking {
     margin: 20px 0;
     display: grid;
-    grid-template-columns: repeat(2, 68vh);
-  }
+    grid-template-columns: repeat(2, 68vh); }
 
   .climbing {
     margin: 20px 0;
     display: grid;
-    grid-template-columns: repeat(2, 68vh);
-  }
+    grid-template-columns: repeat(2, 68vh); }
 
   .thumb-grid img {
-    transform: translate(49px, 0);
-  }
+    transform: translate(49px, 0); }
 
   .feet {
-    font-size: 14px;
-  }
+    font-size: 14px; }
 
   .fab {
     padding: 15px;
-    font-size: 35px;
-  }
+    font-size: 35px; }
 
   .gallery {
     margin: 0 10px;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(auto, 1fr);
-  }
+    grid-template-rows: repeat(auto, 1fr); }
 
   .masonary-item {
     grid-column: span 2;
-    grid-row: span 1;
-  }
+    grid-row: span 1; }
 
   .gallery-img {
-    grid-column: span 2s;
-  }
+    grid-column: span 2s; }
 
   .masonary {
     text-align: center;
     letter-spacing: 7px;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    font-size: 20px;
-  }
+    font-size: 20px; }
 
   .nav-gallery {
     height: 60px;
-    font-size: 15px;
-  }
+    font-size: 15px; }
 
   ul {
-    margin-top: 0;
-  }
-  ul li {
-    padding: 20px;
-  }
-  ul li a {
-    padding: 12px;
-  }
+    margin-top: 0; }
+    ul li {
+      padding: 20px; }
+      ul li a {
+        padding: 12px; }
 
   .form {
     width: 45%;
-    margin-left: 25%;
-  }
+    margin-left: 25%; }
 
   .text, textarea {
-    width: 290px;
-  }
-}
+    width: 290px; } }
 @media (max-width: 450px) {
   header {
-    height: 110vh;
-  }
+    height: 110vh; }
 
   nav {
-    height: 35px;
-  }
-  nav ul {
-    padding: 0;
-  }
-  nav ul li {
-    display: inline;
-    padding: 7px;
-  }
-  nav ul li a {
-    padding: 7px;
-    font-size: 11px;
-  }
+    height: 35px; }
+    nav ul {
+      padding: 0; }
+      nav ul li {
+        display: inline;
+        padding: 7px; }
+        nav ul li a {
+          padding: 7px;
+          font-size: 11px; }
 
   #toggleNav {
-    display: none !important;
-  }
+    display: none !important; }
 
   #toggleNav.active {
     display: initial !important;
-  }
+    position: absolute;
+    transform: translate(-83%, 14%);
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 3px;
+    width: 102%;
+    height: 10em; }
+    #toggleNav.active li {
+      padding: 10px;
+      display: block; }
+    #toggleNav.active a {
+      font-size: 20px; }
 
   .toggle {
-    display: initial !important;
-  }
+    display: initial !important; }
 
   p, .paragraph {
     font-size: 13px;
-    width: auto;
-  }
+    width: auto; }
 
   .thumbnails {
-    border: none;
-  }
+    border: none; }
 
   .thumb-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
+    grid-template-columns: repeat(1, 1fr); }
 
   .intro {
     margin-left: 5px;
-    width: 170px;
-  }
+    width: 170px; }
+
+  .thumb-grid img {
+    transform: translate(0px, 0); }
 
   .dropdown-content {
-    min-width: 87px;
-  }
+    min-width: 87px; }
 
   .dropdown-content a {
-    padding: 9px;
-  }
+    padding: 9px; }
 
   .button {
     padding: 7px;
-    font-size: 12px;
-  }
+    font-size: 12px; }
 
   .feet {
-    font-size: 14px;
-  }
+    font-size: 14px; }
 
   .fab {
     padding: 15px;
-    font-size: 30px;
-  }
+    font-size: 30px; }
 
   .form {
     width: 80%;
-    margin-left: 22px;
-  }
+    margin-left: 22px; }
 
   .text, textarea {
-    width: 205px;
-  }
+    width: 205px; }
 
   .ul {
-    padding: 0;
-  }
-  .ul li {
-    padding: 5px;
-  }
-  .ul li a {
-    padding: 7px;
-    font-size: 10px;
-  }
+    padding: 0; }
+    .ul li {
+      padding: 5px; }
+      .ul li a {
+        padding: 7px;
+        font-size: 20px; }
 
-  .fishing {
-    margin: 10px 0;
-    grid-template-columns: repeat(1, auto);
-  }
+  .hero {
+    font-size: 26px;
+    position: absolute;
+    transform: translate(1.5em, 9em); }
 
-  .canoeing {
-    margin: 10px 0;
-    grid-template-columns: repeat(1, auto);
-  }
-
-  .hunting {
-    margin: 10px 0;
-    grid-template-columns: repeat(1, auto);
-  }
-
-  .hiking {
-    margin: 10px 0;
-    grid-template-columns: repeat(1, auto);
-  }
-
+  .camping,
+  .fishing,
+  .canoeing,
+  .hunting,
+  .hiking,
   .climbing {
-    margin: 10px 0;
-    grid-template-columns: repeat(1, auto) !important;
-  }
+    margin: 10px 0 !important;
+    grid-template-columns: 1fr; }
 
   .gallery {
-    grid-template-columns: repeat(1, 1fr);
-  }
+    grid-template-columns: repeat(1, 1fr); }
 
   .gallery-items {
     padding: 2px;
     grid-column: span 1;
-    grid-row: span 1;
-  }
+    grid-row: span 1; }
 
   .masonary {
     text-align: center;
     letter-spacing: 7px;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    font-size: 20px;
-  }
-}
+    font-size: 20px; } }
 
 /*# sourceMappingURL=main.css.map */

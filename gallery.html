@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+    <script src="js/main.js"></script>
+
     <style>
         html {
             scroll-behavior: smooth;
@@ -24,35 +26,44 @@
 
     <div class="container">
         <section class="core-front">
-                <nav class="nav-gallery">
-                        <ul>
-                            <li> <a class="campground">Explore Mother Nature</a> </li>
-                            <li>
-                                <a class="active" href="index.html">Home</a>
-                            </li>
-            
-                            <li class="dropdown">
-                                <a class="dropbtn" href="index.html">Activities</a>
-                                <div class="dropdown-content">
-                                    <a href="#Camping">Camping</a>
-                                    <a href="#Hiking">Hiking</a>
-                                    <a href="#Climbing">Climbing</a>
-                                    <a href="#Fishing">Fishing</a>
-                                    <a href="#Canoeing">Canoeing</a>
-                                    <a href="#Hunting">Hunting</a>
-                                </div>
-                            </li>
-            
-                            <li>
-                                <a href="gallery.html">Gallery</a>
-                            </li>
-            
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
-            
-                        </ul>
-                    </nav>
+            <nav class="home-nav">
+                <ul>
+                    <li> <a href="index.html" class="campground">Explore Mother Nature</a> </li>
+    
+    
+    
+                    <article id="toggleNav">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+        
+                        <li class="dropdown">
+                            <a class="dropbtn" href="#">Activities</a>
+                            <div class="dropdown-content">
+                                <a href="index.html">Camping</a>
+                                <a href="index.html">Hiking</a>
+                                <a href="index.html">Climbing</a>
+                                <a href="index.html">Fishing</a>
+                                <a href="index.html">Canoeing</a>
+                                <a href="index.html">Hunting</a>
+                            </div>
+                        </li>
+        
+                        <li>
+                            <a class="active" href="gallery.html">Gallery</a>
+                        </li>
+        
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </article>
+                    <li>
+                        <span class="toggle" onclick="toggleNavigation()">
+                            <i class="fa fa-bars">&#8801;</i>
+                        </span>
+                    </li>
+                </ul>
+            </nav>
         </section>
 
         <!-- My Masonary Gallery -->

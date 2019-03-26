@@ -1,5 +1,10 @@
 // This is where I insert my classes and ids
 
+@font-face {
+  font-family: 'Saira Extra Condensed';
+  src: url(../fonts/Saira_Extra_Condensed/SairaExtraCondensed-Regular.ttf) 
+}
+
 // Website 1: Home Page
 
 // DropDown Menu
@@ -274,6 +279,10 @@ footer {
 .ul {
     padding-top: 18px;
   }
+
+.contact-nav {
+  position: initial;
+}
 
 .contact-a:hover {
   color: black;
