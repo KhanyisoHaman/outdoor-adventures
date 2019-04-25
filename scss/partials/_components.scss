@@ -59,9 +59,14 @@
 
   .fa-chevron-down {
     color: #CCE3DE;
-    font-size: 40px;
+    font-size: 43px;
     position: absolute;
     transform: translate(15.5em, 14em);
+    transition: all .5s ease-in;
+  }
+
+  .fa-chevron-down:hover {
+    text-shadow: 2px 2px 2px black;
   }
 
 
